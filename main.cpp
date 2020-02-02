@@ -69,12 +69,14 @@ cout << division << " is number1 / number2\n";
 modulus = number3 % number4;
 cout << modulus << " is number3 % number4\n";
 
-
-
-
-
-
 //Output
+
+cout << "Number 1("<< number1 << ") + " << "Number 2("<< number2 << ") = " << addition << endl;
+cout << "Number1("<< number1 << ") - " << "Number2("<< number2 << ") = " << subtraction << endl;
+cout << "Number1("<< number1 << ") * " << "Number2("<< number2 << ") = " << multiplication << endl;
+cout << "Number1("<< number1 << ") / " << "Number2("<< number2 << ") = " << division << endl;
+cout << "Number3("<< number3 << ") % " << "Number4("<< number4 << ") = " << modulus << endl;
+
 
   return 0;
 }
