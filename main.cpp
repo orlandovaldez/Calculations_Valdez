@@ -1,5 +1,5 @@
 /* Orlando Valdez
-(Course name section)
+(COSC 1436-57002)
 Tool: Repl.it
 This is a program to work with the various arithmatic operators in C++ and conditions.
 */
@@ -19,10 +19,6 @@ int modulus = 0;
   cout << "\nPlease enter Number 1: ";
   cin >> number1;
 
-
-
-
-
 do
 {
 cout << "\nPlease enter Number 2: ";
@@ -33,7 +29,7 @@ cin >> number2;
   cout << "\nInvalid Number, division by " << number2 <<" is not allowed in math." << endl;
   }
 }
-while (number2 == 0);
+while (number2 == 0);//Will loop until user enters a double that is not equal to zero
 
 
 cout << "\nPlease enter Number 3: ";
@@ -50,33 +46,23 @@ cin >> number4;
   }
 }
 while (number4 == 0);
-cout << endl;
+cout << endl;//Will loop until user enters a double that is not equal to a zero
 
 //Process
-
+//Arithmatic calculations are carried out and set to their variables
 addition = number1 + number2;
-cout << addition << " is " << number1 << " + " << number2 <<"\n";
-
 subtraction = number1 - number2;
-cout << subtraction << " is number1 - number2\n";
-
 multiplication = number1 * number2;
-cout << multiplication << " is number1 * number2\n";
-
 division = number1 / number2;
-cout << division << " is number1 / number2\n";
-
 modulus = number3 % number4;
-cout << modulus << " is number3 % number4\n";
 
 //Output
-
-cout << "Number 1("<< number1 << ") + " << "Number 2("<< number2 << ") = " << addition << endl;
+//output to user is displayed alonside arithmatic calculations for thier understanding.
+cout << "Number1("<< number1 << ") + " << "Number2("<< number2 << ") = " << addition << endl;
 cout << "Number1("<< number1 << ") - " << "Number2("<< number2 << ") = " << subtraction << endl;
 cout << "Number1("<< number1 << ") * " << "Number2("<< number2 << ") = " << multiplication << endl;
 cout << "Number1("<< number1 << ") / " << "Number2("<< number2 << ") = " << division << endl;
 cout << "Number3("<< number3 << ") % " << "Number4("<< number4 << ") = " << modulus << endl;
 
-
-  return 0;
+return 0;
 }
